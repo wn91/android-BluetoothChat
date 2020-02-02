@@ -1,9 +1,19 @@
+/*
+ * Copyright (c) 2020. 526892120@qq.com
+ */
+
 package com.example.android.common.adapter;
 
 public class ChatMessage {
 
+    /**
+     * type sent
+     */
     public static final int TYPE_SENT = 1;
 
+    /**
+     * type received
+     */
     public static final int TYPE_RECEIVED = 2;
 
     private int mType;
